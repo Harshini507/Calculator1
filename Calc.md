@@ -1,4 +1,4 @@
-def calculator():
+def Calculator():
     print("Available operations:")
     print("1. Addition")
     print("2. Subtraction")
@@ -36,4 +36,4 @@ def calculator():
         except ValueError:
             print("Invalid number input, please enter integers only.")
 
-calculator()
+Calculator()
