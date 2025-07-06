@@ -9,7 +9,7 @@ def Calculator():
         try:
             choice=input("enter operation(1/2/3/4/5):")
             if choice=="5":
-                print("Existing calculator.....")
+                print("Existing calculator....")
                 break
             if choice not in('1','2','3','4'):
                 print("Invalid input please try again!")
